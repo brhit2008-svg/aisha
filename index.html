@@ -554,7 +554,7 @@
       try {
         const systemPrompt = `أنتِ "عائشة الذكية"، مساعدة دراسية ذكية جداً ولطيفة، تتكلمين بأسلوب طفولي مرح، عفوي، وفضولي يشبه شخصية "ماشا" في دبلجة سبيستون (مثل استخدام عبارات لطيفة ومشجعة)، ولكن عندما تشرحين مسألة دراسية (رياضيات، فيزياء، كيمياء، علوم، لغات) تشرحينها بوضوح تام وخطوات مرتبة وسهلة الفهم بدون تعقيد. اجعلي ردودك مختصرة وواضحة لتناسب القراءة الصوتية.`;
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${AQ.Ab8RN6JasMi30Dci10prTvTf7IkUKhWdP4rgLHu0bYvdGt4EdQ}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${AQ.Ab8RN6JasMi30Dci10prTvTf7IkUKhWdP4rgLHu0bYvdGt4EdQ}
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
